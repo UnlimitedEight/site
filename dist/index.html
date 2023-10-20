@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <title>Hello!</title>
+
+  <!-- Send me a message at phroomey@duck.com and I'll get back to you with my CV if needed! -->
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    function playSound() {
+      document.getElementById('xp-start').play();
+    }
+  </script>
+</head>
+
+<body>
+  <div class="root-container">
+    <div class="window-container">
+      <div class="navbar-container">
+        <div class="navbar-inner">
+          <div class="navbar-left">
+            <img class="navbar-icon" src="images/auth.png">
+            <h3 class="navbar-text">Nicu Frumusache</h3>
+          </div>
+          <div>
+            <button class="navbar-close-btn" onclick="playSound()">
+              <div class="navbar-close-btn-bg"></div>
+              <div class="navbar-close-btn-inner-border"></div>
+              <img class="navbar-close-btn-img" src="images/close.svg">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="delimiter-wrapper">
+          <p class="delimiter-txt">The light side</p>
+          <div class="delimiter-line"></div>
+        </div>
+        <div class="grid-container">
+          <a class="widget-button" target="_blank" rel="noopener noreferrer" href="https://github.com/UnlimitedEight">
+            <div class="widget-button-inner">
+              <img class="widget-button-img" src="images/github.png">
+              <p class="widget-button-txt">GitHub</p>
+            </div>
+          </a>
+          <a class="widget-button" target="_blank" rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/nicu-frumusache-1b3566a4">
+            <div class="widget-button-inner">
+              <img class="widget-button-img" src="images/linkedin.png">
+              <p class="widget-button-txt">LinkedIn</p>
+            </div>
+          </a>
+          <a class="widget-button" href="mailto:phroomey@duck.com?subject=Hello!">
+            <div class="widget-button-inner">
+              <img class="widget-button-img" src="images/email.png">
+              <p class="widget-button-txt">Email me!</p>
+            </div>
+          </a>
+        </div>
+        <div class="delimiter-wrapper">
+          <p class="delimiter-txt">The dark side</p>
+          <div class="delimiter-line"></div>
+        </div>
+        <div class="grid-container">
+          <a class="widget-button" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/phroomey">
+            <div class="widget-button-inner">
+              <img class="widget-button-img" src="images/instagram.png">
+              <p class="widget-button-txt">Instagram</p>
+            </div>
+          </a>
+          <a class="widget-button" target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/phroomey">
+            <div class="widget-button-inner">
+              <img class="widget-button-img" src="images/soundcloud.png">
+              <p class="widget-button-txt">SoundCloud</p>
+            </div>
+          </a>
+          <a class="widget-button" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@trbl_trbl">
+            <div class="widget-button-inner">
+              <img class="widget-button-img" src="images/youtube.png">
+              <p class="widget-button-txt">YouTube</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <audio id="xp-start" src="sounds/start.mp3"></audio>
+</body>
+
+</html>
